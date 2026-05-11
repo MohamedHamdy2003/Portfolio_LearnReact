@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from "./assets/black-bg.jpg";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       style={{ height: "80vh", marginBottom : "7rem" }}
     >
       <img
-        src="/black-bg.jpg"
+        src={profileImg}
         className="position-absolute top-0 start-0 w-100 h-100 rounded"
         style={{ objectFit: "cover" }}
       />
